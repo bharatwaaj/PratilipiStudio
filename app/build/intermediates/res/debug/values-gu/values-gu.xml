@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/ashish/Desktop/AndroidStudio/app/src/main/res/values-gu/strings.xml -->
+    <eat-comment/>
+    <string name="about">કૉપિ કરો વિશે</string>
+    <string name="categories">શ્રેણીઓ</string>
+    <string name="classics">ઉત્તમ નમૂનાના</string>
+    <string name="content_language">વિષયાર્થ ભાષા</string>
+    <string name="english">ઇંગલિશ</string>
+    <string name="ghazals">ગઝલ</string>
+    <string name="gujarati">ગુજરાતી</string>
+    <string name="hindi">હિન્દી</string>
+    <string name="home">ઘર</string>
+    <string name="horror">હૉરર</string>
+    <string name="menu_language">મેનુ ભાષા</string>
+    <string name="new_releases">ન્યૂ સલાહ</string>
+    <string name="poems">કવિતાઓ</string>
+    <string name="reset_content_language">રીસેટ સામગ્રી ભાષા</string>
+    <string name="reset_menu_language">રીસેટ મેનુ ભાષા</string>
+    <string name="romance">રોમાંચક</string>
+    <string name="stories">વાર્તાઓ</string>
+    <string name="tamil">તમિલ</string>
+    <string name="view_all">જુઓ બધા>></string>
+</resources>
