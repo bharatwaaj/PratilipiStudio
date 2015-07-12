@@ -1,25 +1,28 @@
 package com.pratilipi.android.ui;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 import com.pratilipi.android.R;
 import com.pratilipi.android.adapter.StoreHomeAdapter;
 import com.pratilipi.android.http.HttpGet;
 import com.pratilipi.android.model.Book;
 import com.pratilipi.android.model.StoreContent;
 import com.pratilipi.android.util.PConstants;
+import com.pratilipi.android.util.StoreHomeDataSource;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 
 public class StoreHomeFragment extends BaseFragment {
 
@@ -31,6 +34,7 @@ public class StoreHomeFragment extends BaseFragment {
 	private ListView mListView;
 	private View mProgressBar;
 	private StoreHomeAdapter mAdapter;
+    private StoreHomeDataSource mDataSource;
 
 	@Override
 	public String getCustomTag() {
@@ -53,12 +57,22 @@ public class StoreHomeFragment extends BaseFragment {
 
 		if (mList.size() == 0
 				|| !mParentActivity.mApp.getContentLanguage().equals(mLanguage)) {
-			mList.clear();
-			mLanguage = mParentActivity.mApp.getContentLanguage();
-			mProgressBar.setVisibility(View.VISIBLE);
-			requestStoreHomeTopContent();
+            mList.clear();
+            mLanguage = mParentActivity.mApp.getContentLanguage();
+            mDataSource = new StoreHomeDataSource(mParentActivity);
+            mDataSource.open();
+            String content = mDataSource.getContent(mLanguage);
+            if (content != null) {
+                Gson gson = new Gson();
+                List<StoreContent> list = gson.fromJson(content, new TypeToken<List<StoreContent>>() {
+                }.getType());
+                mList.addAll(list);
+            } else {
+                mProgressBar.setVisibility(View.VISIBLE);
+                requestStoreHomeTopContent();
+            }
 		} else {
-			mListView.setVisibility(View.VISIBLE);
+            mListView.setVisibility(View.VISIBLE);
 		}
 
 		return mRootView;
@@ -113,6 +127,8 @@ public class StoreHomeFragment extends BaseFragment {
 							}
 						}
 					}
+                    Gson gson = new Gson();
+                    mDataSource.createStoreHomeContent(gson.toJson(mList), mLanguage);
 					mProgressBar.setVisibility(View.GONE);
 					mAdapter.notifyDataSetChanged();
 				} catch (JSONException e) {
@@ -122,6 +138,22 @@ public class StoreHomeFragment extends BaseFragment {
 		}
 		return null;
 	}
+
+    @Override
+    public void onResume() {
+        if (mDataSource != null) {
+            mDataSource.open();
+        }
+        super.onResume();
+    }
+
+    @Override
+    public void onPause() {
+        if (mDataSource != null) {
+            mDataSource.close();
+        }
+        super.onPause();
+    }
 
 	@Override
 	public void onDestroy() {

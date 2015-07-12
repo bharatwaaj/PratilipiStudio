@@ -1,7 +1,5 @@
 package com.pratilipi.android.adapter;
 
-import java.util.List;
-
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
@@ -21,6 +19,8 @@ import com.pratilipi.android.ui.SplashActivity;
 import com.pratilipi.android.util.AppState;
 import com.pratilipi.android.util.FontManager;
 
+import java.util.List;
+
 public class StoreHomeRecyclerViewAdapter extends
 		RecyclerView.Adapter<StoreHomeRecyclerViewAdapter.ViewHolder> {
 
@@ -37,13 +37,12 @@ public class StoreHomeRecyclerViewAdapter extends
 		TextView sellingPriceTextView;
 
 		public ViewHolder(View view, ImageView imageView,
-				TextView titleTextView, RatingBar ratingBar,
+				TextView titleTextView,
 				TextView freeTextView, TextView sellingPriceTextView) {
 			super(view);
 			this.view = view;
 			this.imageView = imageView;
 			this.titleTextView = titleTextView;
-			this.ratingBar = ratingBar;
 			this.freeTextView = freeTextView;
 			this.sellingPriceTextView = sellingPriceTextView;
 		}
@@ -67,8 +66,7 @@ public class StoreHomeRecyclerViewAdapter extends
 				.findViewById(R.id.free_text_view);
 		TextView sellingPriceTextView = (TextView) view
 				.findViewById(R.id.selling_price_text_view);
-		ViewHolder viewHolder = new ViewHolder(view, imageView, titleTextView,
-				ratingBar, freeTextView, sellingPriceTextView);
+		ViewHolder viewHolder = new ViewHolder(view, imageView, titleTextView, freeTextView, sellingPriceTextView);
 		return viewHolder;
 	}
 
@@ -90,7 +88,6 @@ public class StoreHomeRecyclerViewAdapter extends
 				+ "<br />&#45" + book.author.name));
 		viewHolder.titleTextView.setTypeface(FontManager.getInstance().get(
 				AppState.getInstance().getContentLanguage()));
-		viewHolder.ratingBar.setRating(book.ratingCount);
 		if (Math.random() > 0.5) {
 			viewHolder.freeTextView.setVisibility(View.VISIBLE);
 			viewHolder.sellingPriceTextView.setVisibility(View.GONE);

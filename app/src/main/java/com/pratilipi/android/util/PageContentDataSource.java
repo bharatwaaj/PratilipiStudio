@@ -59,6 +59,7 @@ public class PageContentDataSource {
 	}
 
 	public PageContent getPageContent(long pratilipiId, int pageNo) {
+		PageContent pageContent = null;
 		Cursor cursor = database.query(
 				PageContentSQLiteHelper.TABLE_PAGE_CONENT,
 				allColumns,
@@ -66,14 +67,12 @@ public class PageContentDataSource {
 						+ PageContentSQLiteHelper.COLUMN_PAGE_NO + " = ?",
 				new String[] { String.valueOf(pratilipiId),
 						String.valueOf(pageNo) }, null, null, null);
-		cursor.moveToFirst();
-		while (!cursor.isAfterLast()) {
-			PageContent pageContent = cursorToPageContent(cursor);
-			return pageContent;
+		if (cursor.moveToFirst()) {
+			pageContent = cursorToPageContent(cursor);
 		}
 		// make sure to close the cursor
 		cursor.close();
-		return null;
+		return pageContent;
 	}
 
 	private PageContent cursorToPageContent(Cursor cursor) {
