@@ -175,10 +175,11 @@ public class BookSummaryFragment extends BaseFragment {
 									"Added to Shelf",
 									Toast.LENGTH_SHORT).show();
 
-							Intent i = new Intent(mParentActivity,
-									ReaderActivity.class);
-							i.putExtra("SHELF_CONTENT", shelfContent);
-							startActivity(i);
+							// Do not open reader on add to shelf
+//							Intent i = new Intent(mParentActivity,
+//									ReaderActivity.class);
+//							i.putExtra("SHELF_CONTENT", shelfContent);
+//							startActivity(i);
 						}
 					});
 				} else {
