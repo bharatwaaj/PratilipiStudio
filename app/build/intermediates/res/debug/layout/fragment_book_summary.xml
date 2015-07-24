@@ -17,14 +17,12 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal" >
 
-<<<<<<< Updated upstream
             <ImageView
                 android:id="@+id/image_view"
                 android:layout_width="120dp"
                 android:layout_height="150dp"
                 android:contentDescription="@string/blank"
                 android:scaleType="fitXY" />
-=======
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" >
@@ -48,7 +46,6 @@
                     android:textColor="@android:color/black"
                     android:textSize="@dimen/text_xsmall" />
             </RelativeLayout>
->>>>>>> Stashed changes
 
             <LinearLayout
                 android:layout_width="0dp"

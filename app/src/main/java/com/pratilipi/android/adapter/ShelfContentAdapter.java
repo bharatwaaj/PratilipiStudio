@@ -1,20 +1,19 @@
 package com.pratilipi.android.adapter;
 
-import android.content.Context;
-import android.view.LayoutInflater;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.widget.PopupMenu;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.PopupMenu;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.pratilipi.android.R;
@@ -23,6 +22,7 @@ import com.pratilipi.android.model.ShelfContent;
 import com.pratilipi.android.ui.ReaderActivity;
 import com.pratilipi.android.ui.SplashActivity;
 import com.pratilipi.android.util.FontManager;
+
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.util.List;
@@ -58,8 +58,8 @@ public class ShelfContentAdapter extends ArrayAdapter<ShelfContent> {
 					.findViewById(R.id.image_view);
 			viewHolder.titleTextView = (TextView) convertView
 					.findViewById(R.id.title_text_view);
-			viewHolder.titleEnTextView = (TextView) convertView
-					.findViewById(R.id.title_en_text_view);
+//			viewHolder.titleEnTextView = (TextView) convertView
+//					.findViewById(R.id.title_text_view);
 			viewHolder.overflowMenuIcon = (ImageView) convertView.findViewById(R.id.overflow_cardlist);
 			final View finalConvertView = convertView;
 			viewHolder.overflowMenuIcon.setOnClickListener(new View.OnClickListener() {

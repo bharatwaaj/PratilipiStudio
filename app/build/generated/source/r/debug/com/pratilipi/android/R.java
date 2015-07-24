@@ -1341,30 +1341,6 @@ containing a value of this type.
         public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020030;
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f020031;
         public static final int abc_textfield_search_material=0x7f020032;
-<<<<<<< Updated upstream
-        public static final int arrow_right=0x7f020033;
-        public static final int background_genre=0x7f020034;
-        public static final int background_shadow=0x7f020035;
-        public static final int bookmark=0x7f020036;
-        public static final int border_bottom=0x7f020037;
-        public static final int button_selector_green=0x7f020038;
-        public static final int button_selector_red=0x7f020039;
-        public static final int change_font=0x7f02003a;
-        public static final int ic_launcher=0x7f02003b;
-        public static final int img_fb_btn=0x7f02003c;
-        public static final int img_google_btn=0x7f02003d;
-        public static final int index=0x7f02003e;
-        public static final int language_list_selector=0x7f02003f;
-        public static final int layout_corner_radius_red=0x7f020040;
-        public static final int noimage=0x7f020041;
-        public static final int profile=0x7f020042;
-        public static final int rate_star_half=0x7f020043;
-        public static final int rate_star_off=0x7f020044;
-        public static final int rate_star_on=0x7f020045;
-        public static final int ratingbar=0x7f020046;
-        public static final int search=0x7f020047;
-        public static final int shelf=0x7f020048;
-=======
         public static final int addasshortcut=0x7f020033;
         public static final int arrow_right=0x7f020034;
         public static final int background_genre=0x7f020035;
@@ -1378,18 +1354,18 @@ containing a value of this type.
         public static final int ic_more_vert_black_24dp=0x7f02003d;
         public static final int img_fb_btn=0x7f02003e;
         public static final int img_google_btn=0x7f02003f;
-        public static final int language_list_selector=0x7f020040;
-        public static final int layout_corner_radius_red=0x7f020041;
-        public static final int noimage=0x7f020042;
-        public static final int profile=0x7f020043;
-        public static final int rate_star_half=0x7f020044;
-        public static final int rate_star_off=0x7f020045;
-        public static final int rate_star_on=0x7f020046;
-        public static final int ratingbar=0x7f020047;
-        public static final int remove_from_shelf_icon=0x7f020048;
-        public static final int search=0x7f020049;
-        public static final int shelf=0x7f02004a;
->>>>>>> Stashed changes
+        public static final int index=0x7f020040;
+        public static final int language_list_selector=0x7f020041;
+        public static final int layout_corner_radius_red=0x7f020042;
+        public static final int noimage=0x7f020043;
+        public static final int profile=0x7f020044;
+        public static final int rate_star_half=0x7f020045;
+        public static final int rate_star_off=0x7f020046;
+        public static final int rate_star_on=0x7f020047;
+        public static final int ratingbar=0x7f020048;
+        public static final int remove_from_shelf_icon=0x7f020049;
+        public static final int search=0x7f02004a;
+        public static final int shelf=0x7f02004b;
     }
     public static final class id {
         public static final int action_bar=0x7f0d0031;
@@ -1406,28 +1382,17 @@ containing a value of this type.
         public static final int action_mode_bar_stub=0x7f0d002d;
         public static final int action_mode_close_button=0x7f0d0020;
         public static final int activity_chooser_view_content=0x7f0d0021;
-<<<<<<< Updated upstream
         public static final int add_to_shelf_text_view=0x7f0d0054;
-=======
         public static final int addasShortcut=0x7f0d007f;
->>>>>>> Stashed changes
         public static final int always=0x7f0d0016;
         public static final int author_name_text_view=0x7f0d004a;
         public static final int base=0x7f0d0045;
         public static final int beginning=0x7f0d0013;
-<<<<<<< Updated upstream
-        public static final int body=0x7f0d007d;
-        public static final int bookmark=0x7f0d007f;
-        public static final int buy_now_text_view=0x7f0d0053;
-        public static final int change_font=0x7f0d007e;
-        public static final int chapter_text_view=0x7f0d0042;
-=======
         public static final int body=0x7f0d007e;
         public static final int bookmark=0x7f0d0082;
-        public static final int buy_now_text_view=0x7f0d0052;
+        public static final int buy_now_text_view=0x7f0d0053;
         public static final int change_font=0x7f0d0081;
-        public static final int chapter_text_view=0x7f0d0041;
->>>>>>> Stashed changes
+        public static final int chapter_text_view=0x7f0d0042;
         public static final int checkbox=0x7f0d0029;
         public static final int collapseActionView=0x7f0d0017;
         public static final int container=0x7f0d0046;
@@ -1460,7 +1425,7 @@ containing a value of this type.
         public static final int ifRoom=0x7f0d0018;
         public static final int image=0x7f0d0023;
         public static final int image_view=0x7f0d0048;
-        public static final int index=0x7f0d0080;
+        public static final int index=0x7f0d0083;
         public static final int listMode=0x7f0d0009;
         public static final int list_item=0x7f0d0025;
         public static final int list_view=0x7f0d0056;
@@ -1474,17 +1439,11 @@ containing a value of this type.
         public static final int never=0x7f0d0019;
         public static final int none=0x7f0d000e;
         public static final int normal=0x7f0d000a;
-<<<<<<< Updated upstream
-        public static final int popup=0x7f0d007b;
-        public static final int price_layout=0x7f0d004f;
-        public static final int profile=0x7f0d0083;
-=======
         public static final int overflow_cardlist=0x7f0d0078;
         public static final int popup=0x7f0d007c;
         public static final int popupaction1=0x7f0d0080;
-        public static final int price_layout=0x7f0d004e;
-        public static final int profile=0x7f0d0085;
->>>>>>> Stashed changes
+        public static final int price_layout=0x7f0d004f;
+        public static final int profile=0x7f0d0086;
         public static final int profile_content_holder=0x7f0d0064;
         public static final int profile_fragment_container_layout=0x7f0d0061;
         public static final int profile_img=0x7f0d0063;
@@ -1505,13 +1464,8 @@ containing a value of this type.
         public static final int register_last_name=0x7f0d006f;
         public static final int register_name=0x7f0d006e;
         public static final int register_pwd=0x7f0d0071;
-<<<<<<< Updated upstream
         public static final int right_drawer=0x7f0d0044;
-        public static final int search=0x7f0d0081;
-=======
-        public static final int review_text_view=0x7f0d0054;
-        public static final int search=0x7f0d0083;
->>>>>>> Stashed changes
+        public static final int search=0x7f0d0084;
         public static final int search_badge=0x7f0d0035;
         public static final int search_bar=0x7f0d0034;
         public static final int search_button=0x7f0d0036;
@@ -1522,15 +1476,9 @@ containing a value of this type.
         public static final int search_plate=0x7f0d0039;
         public static final int search_src_text=0x7f0d003a;
         public static final int search_voice_btn=0x7f0d003e;
-<<<<<<< Updated upstream
         public static final int seek_bar=0x7f0d0043;
         public static final int selling_price_text_view=0x7f0d0051;
-        public static final int shelf=0x7f0d0082;
-=======
-        public static final int seek_bar=0x7f0d0042;
-        public static final int selling_price_text_view=0x7f0d0050;
-        public static final int shelf=0x7f0d0084;
->>>>>>> Stashed changes
+        public static final int shelf=0x7f0d0085;
         public static final int shortcut=0x7f0d002a;
         public static final int showCustom=0x7f0d000f;
         public static final int showHome=0x7f0d0010;
@@ -1678,52 +1626,30 @@ containing a value of this type.
         public static final int hindi_locale=0x7f070035;
         public static final int home=0x7f070017;
         public static final int horror=0x7f070018;
-<<<<<<< Updated upstream
-        public static final int index=0x7f070034;
-        public static final int loading=0x7f070035;
+        public static final int index=0x7f070036;
+        public static final int loading=0x7f070037;
         public static final int menu_language=0x7f070019;
         public static final int new_releases=0x7f07001a;
-        public static final int oops_no_books_found=0x7f070036;
+        public static final int oops_no_books_found=0x7f070038;
         public static final int poems=0x7f07001b;
-        public static final int profile=0x7f070037;
-        public static final int read=0x7f070038;
-        public static final int read_sample=0x7f070039;
-        public static final int reader=0x7f07003a;
+        public static final int popupaction1=0x7f070039;
+        public static final int profile=0x7f07003a;
+        public static final int read=0x7f07003b;
+        public static final int read_sample=0x7f07003c;
+        public static final int reader=0x7f07003d;
+        public static final int remove_from_shelf_dialog=0x7f07003e;
+        public static final int remove_from_shelf_positive=0x7f07003f;
+        public static final int remove_from_shelf_title=0x7f070040;
         public static final int reset_content_language=0x7f07001c;
         public static final int reset_menu_language=0x7f07001d;
-        public static final int review=0x7f07003b;
+        public static final int review=0x7f070041;
         public static final int romance=0x7f07001e;
-        public static final int search=0x7f07003c;
-        public static final int search_hint=0x7f07003d;
-        public static final int shelf=0x7f07003e;
+        public static final int search=0x7f070042;
+        public static final int search_hint=0x7f070043;
+        public static final int shelf=0x7f070044;
         public static final int stories=0x7f07001f;
         public static final int tamil=0x7f070020;
-        public static final int tamil_locale=0x7f07003f;
-=======
-        public static final int loading=0x7f070036;
-        public static final int menu_language=0x7f070019;
-        public static final int new_releases=0x7f07001a;
-        public static final int oops_no_books_found=0x7f070037;
-        public static final int poems=0x7f07001b;
-        public static final int popupaction1=0x7f070038;
-        public static final int profile=0x7f070039;
-        public static final int read=0x7f07003a;
-        public static final int read_sample=0x7f07003b;
-        public static final int reader=0x7f07003c;
-        public static final int remove_from_shelf_dialog=0x7f07003d;
-        public static final int remove_from_shelf_positive=0x7f07003e;
-        public static final int remove_from_shelf_title=0x7f07003f;
-        public static final int reset_content_language=0x7f07001c;
-        public static final int reset_menu_language=0x7f07001d;
-        public static final int review=0x7f070040;
-        public static final int romance=0x7f07001e;
-        public static final int search=0x7f070041;
-        public static final int search_hint=0x7f070042;
-        public static final int shelf=0x7f070043;
-        public static final int stories=0x7f07001f;
-        public static final int tamil=0x7f070020;
-        public static final int tamil_locale=0x7f070044;
->>>>>>> Stashed changes
+        public static final int tamil_locale=0x7f070045;
         public static final int view_all=0x7f070021;
     }
     public static final class style {

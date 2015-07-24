@@ -53,7 +53,6 @@
 
     </FrameLayout>
 
-<<<<<<< Updated upstream
     <ListView
         android:id="@+id/right_drawer"
         android:layout_width="240dp"
@@ -64,7 +63,4 @@
         android:dividerHeight="2dp"
         android:fitsSystemWindows="true"
         android:background="#ccc" />
-</android.support.v4.widget.DrawerLayout><!-- From: file:/Users/ashish/Desktop/AndroidStudio/app/src/main/res/layout/activity_reader.xml -->
-=======
-</FrameLayout><!-- From: file:/C:/Users/Bharatwaaj/AndroidStudioProjects/PratilipiStudio/app/src/main/res/layout/activity_reader.xml -->
->>>>>>> Stashed changes
+</android.support.v4.widget.DrawerLayout><!-- From: file:/C:/Users/Bharatwaaj/AndroidStudioProjects/PratilipiStudio/app/src/main/res/layout/activity_reader.xml -->

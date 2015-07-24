@@ -9,4 +9,4 @@
     android:paddingRight="16dp"
     android:textColor="#444"
     android:background="?android:attr/activatedBackgroundIndicator"
-    android:minHeight="?android:attr/listPreferredItemHeightSmall" /><!-- From: file:/Users/ashish/Desktop/AndroidStudio/app/src/main/res/layout/layout_drawer_list_view_item.xml -->
+    android:minHeight="?android:attr/listPreferredItemHeightSmall" /><!-- From: file:/C:/Users/Bharatwaaj/AndroidStudioProjects/PratilipiStudio/app/src/main/res/layout/layout_drawer_list_view_item.xml -->

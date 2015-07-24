@@ -213,12 +213,8 @@
     <eat-comment/>
     <string name="about">About Pratilipi</string>
     <string name="add_photo">ADD PHOTO</string>
-<<<<<<< Updated upstream
     <string name="add_to_shelf">ADD TO SHELF</string>
-=======
-    <string name="add_to_shelf">Add to shelf</string>
     <string name="addasShortcutTitle">Add Shortcut</string>
->>>>>>> Stashed changes
     <string name="app_name">Pratilipi</string>
     <string name="blank"/>
     <string name="bookmark">Bookmark</string>

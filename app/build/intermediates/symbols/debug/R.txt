@@ -368,30 +368,6 @@ int drawable abc_textfield_default_mtrl_alpha 0x7f02002f
 int drawable abc_textfield_search_activated_mtrl_alpha 0x7f020030
 int drawable abc_textfield_search_default_mtrl_alpha 0x7f020031
 int drawable abc_textfield_search_material 0x7f020032
-<<<<<<< Updated upstream
-int drawable arrow_right 0x7f020033
-int drawable background_genre 0x7f020034
-int drawable background_shadow 0x7f020035
-int drawable bookmark 0x7f020036
-int drawable border_bottom 0x7f020037
-int drawable button_selector_green 0x7f020038
-int drawable button_selector_red 0x7f020039
-int drawable change_font 0x7f02003a
-int drawable ic_launcher 0x7f02003b
-int drawable img_fb_btn 0x7f02003c
-int drawable img_google_btn 0x7f02003d
-int drawable index 0x7f02003e
-int drawable language_list_selector 0x7f02003f
-int drawable layout_corner_radius_red 0x7f020040
-int drawable noimage 0x7f020041
-int drawable profile 0x7f020042
-int drawable rate_star_half 0x7f020043
-int drawable rate_star_off 0x7f020044
-int drawable rate_star_on 0x7f020045
-int drawable ratingbar 0x7f020046
-int drawable search 0x7f020047
-int drawable shelf 0x7f020048
-=======
 int drawable addasshortcut 0x7f020033
 int drawable arrow_right 0x7f020034
 int drawable background_genre 0x7f020035
@@ -405,18 +381,18 @@ int drawable ic_launcher 0x7f02003c
 int drawable ic_more_vert_black_24dp 0x7f02003d
 int drawable img_fb_btn 0x7f02003e
 int drawable img_google_btn 0x7f02003f
-int drawable language_list_selector 0x7f020040
-int drawable layout_corner_radius_red 0x7f020041
-int drawable noimage 0x7f020042
-int drawable profile 0x7f020043
-int drawable rate_star_half 0x7f020044
-int drawable rate_star_off 0x7f020045
-int drawable rate_star_on 0x7f020046
-int drawable ratingbar 0x7f020047
-int drawable remove_from_shelf_icon 0x7f020048
-int drawable search 0x7f020049
-int drawable shelf 0x7f02004a
->>>>>>> Stashed changes
+int drawable index 0x7f020040
+int drawable language_list_selector 0x7f020041
+int drawable layout_corner_radius_red 0x7f020042
+int drawable noimage 0x7f020043
+int drawable profile 0x7f020044
+int drawable rate_star_half 0x7f020045
+int drawable rate_star_off 0x7f020046
+int drawable rate_star_on 0x7f020047
+int drawable ratingbar 0x7f020048
+int drawable remove_from_shelf_icon 0x7f020049
+int drawable search 0x7f02004a
+int drawable shelf 0x7f02004b
 int id action_bar 0x7f0d0031
 int id action_bar_activity_content 0x7f0d0000
 int id action_bar_container 0x7f0d0030
@@ -431,28 +407,17 @@ int id action_mode_bar 0x7f0d002e
 int id action_mode_bar_stub 0x7f0d002d
 int id action_mode_close_button 0x7f0d0020
 int id activity_chooser_view_content 0x7f0d0021
-<<<<<<< Updated upstream
 int id add_to_shelf_text_view 0x7f0d0054
-=======
 int id addasShortcut 0x7f0d007f
->>>>>>> Stashed changes
 int id always 0x7f0d0016
 int id author_name_text_view 0x7f0d004a
 int id base 0x7f0d0045
 int id beginning 0x7f0d0013
-<<<<<<< Updated upstream
-int id body 0x7f0d007d
-int id bookmark 0x7f0d007f
-int id buy_now_text_view 0x7f0d0053
-int id change_font 0x7f0d007e
-int id chapter_text_view 0x7f0d0042
-=======
 int id body 0x7f0d007e
 int id bookmark 0x7f0d0082
-int id buy_now_text_view 0x7f0d0052
+int id buy_now_text_view 0x7f0d0053
 int id change_font 0x7f0d0081
-int id chapter_text_view 0x7f0d0041
->>>>>>> Stashed changes
+int id chapter_text_view 0x7f0d0042
 int id checkbox 0x7f0d0029
 int id collapseActionView 0x7f0d0017
 int id container 0x7f0d0046
@@ -485,7 +450,7 @@ int id icon 0x7f0d0026
 int id ifRoom 0x7f0d0018
 int id image 0x7f0d0023
 int id image_view 0x7f0d0048
-int id index 0x7f0d0080
+int id index 0x7f0d0083
 int id listMode 0x7f0d0009
 int id list_item 0x7f0d0025
 int id list_view 0x7f0d0056
@@ -499,17 +464,11 @@ int id mrp_text_view 0x7f0d0050
 int id never 0x7f0d0019
 int id none 0x7f0d000e
 int id normal 0x7f0d000a
-<<<<<<< Updated upstream
-int id popup 0x7f0d007b
-int id price_layout 0x7f0d004f
-int id profile 0x7f0d0083
-=======
 int id overflow_cardlist 0x7f0d0078
 int id popup 0x7f0d007c
 int id popupaction1 0x7f0d0080
-int id price_layout 0x7f0d004e
-int id profile 0x7f0d0085
->>>>>>> Stashed changes
+int id price_layout 0x7f0d004f
+int id profile 0x7f0d0086
 int id profile_content_holder 0x7f0d0064
 int id profile_fragment_container_layout 0x7f0d0061
 int id profile_img 0x7f0d0063
@@ -530,13 +489,8 @@ int id register_email 0x7f0d0070
 int id register_last_name 0x7f0d006f
 int id register_name 0x7f0d006e
 int id register_pwd 0x7f0d0071
-<<<<<<< Updated upstream
 int id right_drawer 0x7f0d0044
-int id search 0x7f0d0081
-=======
-int id review_text_view 0x7f0d0054
-int id search 0x7f0d0083
->>>>>>> Stashed changes
+int id search 0x7f0d0084
 int id search_badge 0x7f0d0035
 int id search_bar 0x7f0d0034
 int id search_button 0x7f0d0036
@@ -547,15 +501,9 @@ int id search_mag_icon 0x7f0d0038
 int id search_plate 0x7f0d0039
 int id search_src_text 0x7f0d003a
 int id search_voice_btn 0x7f0d003e
-<<<<<<< Updated upstream
 int id seek_bar 0x7f0d0043
 int id selling_price_text_view 0x7f0d0051
-int id shelf 0x7f0d0082
-=======
-int id seek_bar 0x7f0d0042
-int id selling_price_text_view 0x7f0d0050
-int id shelf 0x7f0d0084
->>>>>>> Stashed changes
+int id shelf 0x7f0d0085
 int id shortcut 0x7f0d002a
 int id showCustom 0x7f0d000f
 int id showHome 0x7f0d0010
@@ -636,7 +584,6 @@ int layout layout_header_tab_red_hindi 0x7f030033
 int layout layout_header_tab_red_tamil 0x7f030034
 int layout layout_list_view_text_item 0x7f030035
 int layout layout_search_list_view_footer 0x7f030036
-<<<<<<< Updated upstream
 int layout layout_search_list_view_item 0x7f030037
 int layout layout_shelf_list_view_item 0x7f030038
 int layout layout_store_category_list_view_item 0x7f030039
@@ -645,23 +592,9 @@ int layout layout_system_error 0x7f03003b
 int layout layout_top_content_list_view_footer 0x7f03003c
 int layout layout_top_content_list_view_item 0x7f03003d
 int layout support_simple_spinner_dropdown_item 0x7f03003e
-int menu reader_menu 0x7f0e0000
-int menu splash_menu 0x7f0e0001
-=======
-int layout layout_search_list_view_header 0x7f030037
-int layout layout_search_list_view_item 0x7f030038
-int layout layout_shelf_list_view_item 0x7f030039
-int layout layout_store_category_list_view_item 0x7f03003a
-int layout layout_store_home_list_view_item 0x7f03003b
-int layout layout_system_error 0x7f03003c
-int layout layout_top_content_list_view_footer 0x7f03003d
-int layout layout_top_content_list_view_header 0x7f03003e
-int layout layout_top_content_list_view_item 0x7f03003f
-int layout support_simple_spinner_dropdown_item 0x7f030040
 int menu popup_menu 0x7f0e0000
 int menu reader_menu 0x7f0e0001
 int menu splash_menu 0x7f0e0002
->>>>>>> Stashed changes
 int raw definitions 0x7f060000
 int string abc_action_bar_home_description 0x7f070000
 int string abc_action_bar_home_description_format 0x7f070001
@@ -708,52 +641,30 @@ int string hindi 0x7f070016
 int string hindi_locale 0x7f070035
 int string home 0x7f070017
 int string horror 0x7f070018
-<<<<<<< Updated upstream
-int string index 0x7f070034
-int string loading 0x7f070035
+int string index 0x7f070036
+int string loading 0x7f070037
 int string menu_language 0x7f070019
 int string new_releases 0x7f07001a
-int string oops_no_books_found 0x7f070036
+int string oops_no_books_found 0x7f070038
 int string poems 0x7f07001b
-int string profile 0x7f070037
-int string read 0x7f070038
-int string read_sample 0x7f070039
-int string reader 0x7f07003a
+int string popupaction1 0x7f070039
+int string profile 0x7f07003a
+int string read 0x7f07003b
+int string read_sample 0x7f07003c
+int string reader 0x7f07003d
+int string remove_from_shelf_dialog 0x7f07003e
+int string remove_from_shelf_positive 0x7f07003f
+int string remove_from_shelf_title 0x7f070040
 int string reset_content_language 0x7f07001c
 int string reset_menu_language 0x7f07001d
-int string review 0x7f07003b
+int string review 0x7f070041
 int string romance 0x7f07001e
-int string search 0x7f07003c
-int string search_hint 0x7f07003d
-int string shelf 0x7f07003e
+int string search 0x7f070042
+int string search_hint 0x7f070043
+int string shelf 0x7f070044
 int string stories 0x7f07001f
 int string tamil 0x7f070020
-int string tamil_locale 0x7f07003f
-=======
-int string loading 0x7f070036
-int string menu_language 0x7f070019
-int string new_releases 0x7f07001a
-int string oops_no_books_found 0x7f070037
-int string poems 0x7f07001b
-int string popupaction1 0x7f070038
-int string profile 0x7f070039
-int string read 0x7f07003a
-int string read_sample 0x7f07003b
-int string reader 0x7f07003c
-int string remove_from_shelf_dialog 0x7f07003d
-int string remove_from_shelf_positive 0x7f07003e
-int string remove_from_shelf_title 0x7f07003f
-int string reset_content_language 0x7f07001c
-int string reset_menu_language 0x7f07001d
-int string review 0x7f070040
-int string romance 0x7f07001e
-int string search 0x7f070041
-int string search_hint 0x7f070042
-int string shelf 0x7f070043
-int string stories 0x7f07001f
-int string tamil 0x7f070020
-int string tamil_locale 0x7f070044
->>>>>>> Stashed changes
+int string tamil_locale 0x7f070045
 int string view_all 0x7f070021
 int style Base_TextAppearance_AppCompat 0x7f0b0027
 int style Base_TextAppearance_AppCompat_Body1 0x7f0b0028
