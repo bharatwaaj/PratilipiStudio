@@ -1,13 +1,5 @@
 package com.pratilipi.android.ui;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -21,6 +13,14 @@ import com.pratilipi.android.adapter.StoreCategoryAdapter;
 import com.pratilipi.android.http.HttpGet;
 import com.pratilipi.android.model.Category;
 import com.pratilipi.android.util.PConstants;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 
 public class StoreCategoryFragment extends BaseFragment {
 
@@ -70,6 +70,7 @@ public class StoreCategoryFragment extends BaseFragment {
 
 		HashMap<String, String> requestHashMap = new HashMap<>();
 		requestHashMap.put(PConstants.URL, PConstants.STORE_CATEGORY_URL);
+		requestHashMap.put("languageId", mParentActivity.mApp.getContentLanguageHashCode());
 
 		storeCategoryRequest.run(requestHashMap);
 	}

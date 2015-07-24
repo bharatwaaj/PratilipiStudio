@@ -213,7 +213,7 @@
     <eat-comment/>
     <string name="about">About Pratilipi</string>
     <string name="add_photo">ADD PHOTO</string>
-    <string name="add_to_shelf">Add to shelf</string>
+    <string name="add_to_shelf">ADD TO SHELF</string>
     <string name="app_name">Pratilipi</string>
     <string name="blank"/>
     <string name="bookmark">Bookmark</string>
@@ -238,6 +238,7 @@
     <string name="hindi_locale">हिन्दी</string>
     <string name="home">HOME</string>
     <string name="horror">Horror</string>
+    <string name="index">Index</string>
     <string name="loading">Loading...</string>
     <string name="menu_language">MENU LANGUAGE</string>
     <string name="new_releases">New Releases</string>

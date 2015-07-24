@@ -1,13 +1,5 @@
 package com.pratilipi.android.ui;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
@@ -25,6 +17,14 @@ import com.pratilipi.android.http.HttpGet;
 import com.pratilipi.android.model.Book;
 import com.pratilipi.android.util.PConstants;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
 public class CategoryFragment extends BaseFragment {
 
 	public static final String TAG_NAME = "Category";
@@ -33,7 +33,6 @@ public class CategoryFragment extends BaseFragment {
 	private View mRootView;
 	private ListView mListView;
 	private View mEmptyMessageView;
-	private View mHeaderView;
 	private View mFooterView;
 	private CategoryAdapter mAdapter;
 	private Long mCategoryId;
@@ -53,14 +52,10 @@ public class CategoryFragment extends BaseFragment {
 				false);
 		mListView = (ListView) mRootView.findViewById(R.id.list_view);
 		mEmptyMessageView = mRootView.findViewById(R.id.empty_message_view);
-		mHeaderView = inflater.inflate(
-				R.layout.layout_top_content_list_view_header, new LinearLayout(
-						mParentActivity));
 		mFooterView = inflater.inflate(
 				R.layout.layout_top_content_list_view_footer, new LinearLayout(
 						mParentActivity));
 
-		mListView.addHeaderView(mHeaderView);
 		mListView.addFooterView(mFooterView);
 		mAdapter = new CategoryAdapter(mParentActivity,
 				R.layout.layout_category_list_view_item, mList);
@@ -70,7 +65,7 @@ public class CategoryFragment extends BaseFragment {
 			@Override
 			public void onItemClick(AdapterView<?> adapter, View view,
 					int position, long id) {
-				Book book = mList.get(position - 1);
+				Book book = mList.get(position);
 				Bundle bundle = new Bundle();
 				bundle.putParcelable("BOOK", book);
 				mParentActivity.showNextView(new BookSummaryFragment(), bundle);
