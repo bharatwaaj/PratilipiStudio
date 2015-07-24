@@ -4,4 +4,4 @@
     android:label="@string/app_name"
     android:searchSuggestAuthority="com.pratilipi.android.provider.PSuggestionProvider"
     android:searchSuggestSelection=" ?" />
-<!-- From: file:/Users/ashish/Desktop/AndroidStudio/app/src/main/res/xml/searchable.xml -->
+<!-- From: file:/C:/Users/Bharatwaaj/AndroidStudioProjects/PratilipiStudio/app/src/main/res/xml/searchable.xml -->

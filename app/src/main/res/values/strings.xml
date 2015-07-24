@@ -50,4 +50,12 @@
     <string name="index">Index</string>
     <string name="oops_no_books_found">OOPS!!\nNo books found.\nAdd more books to find them here.</string>
 
+    <string name="addasShortcutTitle">Add Shortcut</string>
+    <string name="popupaction1">Remove</string>
+    <string name="remove_from_shelf_dialog">Are you sure you want to remove this book from your shelf ?</string>
+    <string name="remove_from_shelf_title">Remove from Shelf ?</string>
+    <string name="remove_from_shelf_positive">Yes</string>
+    <string name="cancel">Cancel</string>
+
+
 </resources>

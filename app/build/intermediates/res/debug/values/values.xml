@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/ashish/Desktop/AndroidStudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Bharatwaaj/AndroidStudioProjects/PratilipiStudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>
-    <!-- From: file:/Users/ashish/Desktop/AndroidStudio/app/src/main/res/values/attrs.xml -->
+    <!-- From: file:/C:/Users/Bharatwaaj/AndroidStudioProjects/PratilipiStudio/app/src/main/res/values/attrs.xml -->
     <eat-comment/>
     <attr format="string" name="textStyle"/>
-    <!-- From: file:/Users/ashish/Desktop/AndroidStudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Bharatwaaj/AndroidStudioProjects/PratilipiStudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <attr format="string" name="title"/>
     <bool name="abc_action_bar_embed_tabs">true</bool>
@@ -23,26 +23,26 @@
     <color name="abc_search_url_text_selected">@android:color/black</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
-    <!-- From: file:/Users/ashish/Desktop/AndroidStudio/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/Bharatwaaj/AndroidStudioProjects/PratilipiStudio/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="background_dark_gray">#666666</color>
     <color name="background_dark_red">#FF4040</color>
-    <!-- From: file:/Users/ashish/Desktop/AndroidStudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Bharatwaaj/AndroidStudioProjects/PratilipiStudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="background_floating_material_dark">#ff424242</color>
     <color name="background_floating_material_light">#ffeeeeee</color>
-    <!-- From: file:/Users/ashish/Desktop/AndroidStudio/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/Bharatwaaj/AndroidStudioProjects/PratilipiStudio/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="background_gray">#999999</color>
     <color name="background_green">#009688</color>
     <color name="background_light_gray">#AAAAAA</color>
     <color name="background_light_green">#80CAC4</color>
     <color name="background_light_red">#E28386</color>
-    <!-- From: file:/Users/ashish/Desktop/AndroidStudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Bharatwaaj/AndroidStudioProjects/PratilipiStudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="background_material_dark">#ff303030</color>
     <color name="background_material_light">#ffeeeeee</color>
-    <!-- From: file:/Users/ashish/Desktop/AndroidStudio/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/Bharatwaaj/AndroidStudioProjects/PratilipiStudio/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="background_peach">#FAE5CF</color>
     <color name="background_red">#FD4B4B</color>
@@ -51,7 +51,7 @@
     <color name="background_xdark_red">#802020</color>
     <color name="background_xlight_gray">#EEEEEE</color>
     <color name="background_xlight_red">#D82626</color>
-    <!-- From: file:/Users/ashish/Desktop/AndroidStudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Bharatwaaj/AndroidStudioProjects/PratilipiStudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
@@ -92,7 +92,7 @@
     <color name="secondary_text_disabled_material_light">#24000000</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
-    <!-- From: file:/Users/ashish/Desktop/AndroidStudio/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/Bharatwaaj/AndroidStudioProjects/PratilipiStudio/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="text_blue">#5544FF</color>
     <color name="text_gray">#999999</color>
@@ -125,7 +125,7 @@
     <declare-styleable name="Toolbar"><attr format="reference" name="titleTextAppearance"/><attr format="reference" name="subtitleTextAppearance"/><attr name="title"/><attr name="subtitle"/><attr name="android:gravity"/><attr format="dimension" name="titleMargins"/><attr format="dimension" name="titleMarginStart"/><attr format="dimension" name="titleMarginEnd"/><attr format="dimension" name="titleMarginTop"/><attr format="dimension" name="titleMarginBottom"/><attr name="contentInsetStart"/><attr name="contentInsetEnd"/><attr name="contentInsetLeft"/><attr name="contentInsetRight"/><attr format="dimension" name="maxButtonHeight"/><attr format="reference" name="theme"/><attr format="reference" name="collapseIcon"/><attr format="string" name="collapseContentDescription"/><attr name="popupTheme"/><attr format="reference" name="navigationIcon"/><attr format="string" name="navigationContentDescription"/><attr name="android:minHeight"/></declare-styleable>
     <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/></declare-styleable>
     <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
-    <!-- From: file:/Users/ashish/Desktop/AndroidStudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Bharatwaaj/AndroidStudioProjects/PratilipiStudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
     <dimen name="abc_action_bar_default_padding_material">4dp</dimen>
@@ -170,7 +170,7 @@
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
-    <!-- From: file:/Users/ashish/Desktop/AndroidStudio/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/Bharatwaaj/AndroidStudioProjects/PratilipiStudio/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="text_default">18sp</dimen>
     <dimen name="text_heading">30sp</dimen>
@@ -181,7 +181,7 @@
     <dimen name="text_xsmall">12sp</dimen>
     <dimen name="text_xxlarge">26sp</dimen>
     <dimen name="text_xxsmall">10sp</dimen>
-    <!-- From: file:/Users/ashish/Desktop/AndroidStudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Bharatwaaj/AndroidStudioProjects/PratilipiStudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <item name="action_bar_activity_content" type="id"/>
     <item name="action_bar_spinner" type="id"/>
@@ -209,15 +209,21 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/Users/ashish/Desktop/AndroidStudio/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Bharatwaaj/AndroidStudioProjects/PratilipiStudio/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="about">About Pratilipi</string>
     <string name="add_photo">ADD PHOTO</string>
+<<<<<<< Updated upstream
     <string name="add_to_shelf">ADD TO SHELF</string>
+=======
+    <string name="add_to_shelf">Add to shelf</string>
+    <string name="addasShortcutTitle">Add Shortcut</string>
+>>>>>>> Stashed changes
     <string name="app_name">Pratilipi</string>
     <string name="blank"/>
     <string name="bookmark">Bookmark</string>
     <string name="buy_now">BUY NOW</string>
+    <string name="cancel">Cancel</string>
     <string name="categories">CATEGORIES</string>
     <string name="change_font">Change font</string>
     <string name="choose_language">Choose Language</string>
@@ -244,10 +250,14 @@
     <string name="new_releases">New Releases</string>
     <string name="oops_no_books_found">OOPS!!\nNo books found.\nAdd more books to find them here.</string>
     <string name="poems">Poems</string>
+    <string name="popupaction1">Remove</string>
     <string name="profile">Profile</string>
     <string name="read">READ</string>
     <string name="read_sample">READ SAMPLE</string>
     <string name="reader">Reader</string>
+    <string name="remove_from_shelf_dialog">Are you sure you want to remove this book from your shelf ?</string>
+    <string name="remove_from_shelf_positive">Yes</string>
+    <string name="remove_from_shelf_title">Remove from Shelf ?</string>
     <string name="reset_content_language">Reset Content Language</string>
     <string name="reset_menu_language">Reset Menu Language</string>
     <string name="review">REVIEW</string>
@@ -259,7 +269,7 @@
     <string name="tamil">TAMIL</string>
     <string name="tamil_locale">தமிழ்</string>
     <string name="view_all">View All</string>
-    <!-- From: file:/Users/ashish/Desktop/AndroidStudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Bharatwaaj/AndroidStudioProjects/PratilipiStudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance">
         <item name="android:textColor">?android:textColorPrimary</item>
@@ -1013,7 +1023,7 @@
         <item name="android:scaleType">center</item>
         <item name="android:background">?attr/selectableItemBackground</item>
     </style>
-    <!-- From: file:/Users/ashish/Desktop/AndroidStudio/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/Bharatwaaj/AndroidStudioProjects/PratilipiStudio/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="Divider">
         <item name="android:layout_width">match_parent</item>
@@ -1051,7 +1061,7 @@
         <item name="android:layout_height">35dp</item>
         <item name="android:textCursorDrawable">@null</item>
     </style>
-    <!-- From: file:/Users/ashish/Desktop/AndroidStudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Bharatwaaj/AndroidStudioProjects/PratilipiStudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>

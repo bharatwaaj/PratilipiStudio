@@ -25,6 +25,10 @@
         android:paddingLeft="10dp"
         android:paddingRight="10dp" >
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
         <com.pratilipi.android.widget.PTextView
             android:id="@+id/title_text_view"
             android:layout_width="wrap_content"
@@ -33,7 +37,19 @@
             android:textColor="@android:color/black"
             android:textSize="@dimen/text_small"
             app:textStyle="regular" />
-
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/overflow_cardlist"
+                    android:background="@drawable/ic_more_vert_black_24dp"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -58,4 +74,4 @@
         </LinearLayout>
     </LinearLayout>
 
-</LinearLayout><!-- From: file:/Users/ashish/Desktop/AndroidStudio/app/src/main/res/layout/layout_shelf_list_view_item.xml -->
+</LinearLayout><!-- From: file:/C:/Users/Bharatwaaj/AndroidStudioProjects/PratilipiStudio/app/src/main/res/layout/layout_shelf_list_view_item.xml -->

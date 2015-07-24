@@ -6,4 +6,4 @@
     <item android:drawable="@drawable/arrow_right" android:state_pressed="true"></item>
     <item android:drawable="@color/android:transparent"></item>
 
-</selector><!-- From: file:/Users/ashish/Desktop/AndroidStudio/app/src/main/res/drawable/language_list_selector.xml -->
+</selector><!-- From: file:/C:/Users/Bharatwaaj/AndroidStudioProjects/PratilipiStudio/app/src/main/res/drawable/language_list_selector.xml -->

@@ -1,8 +1,5 @@
 package com.pratilipi.android.ui;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -16,6 +13,9 @@ import com.pratilipi.android.R;
 import com.pratilipi.android.adapter.ShelfContentAdapter;
 import com.pratilipi.android.model.ShelfContent;
 import com.pratilipi.android.util.ShelfContentDataSource;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ShelfFragment extends BaseFragment {
 
@@ -40,7 +40,6 @@ public class ShelfFragment extends BaseFragment {
 
 		mListView = (ListView) mRootView.findViewById(R.id.list_view);
 		mEmptyMessageView = mRootView.findViewById(R.id.empty_message_view);
-
 		mDataSource = new ShelfContentDataSource(mParentActivity);
 		mDataSource.open();
 		mList = mDataSource.getAllContent();
@@ -50,7 +49,6 @@ public class ShelfFragment extends BaseFragment {
 				R.layout.layout_shelf_list_view_item, mList);
 		mListView.setAdapter(mAdapter);
 		mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-
 			@Override
 			public void onItemClick(AdapterView<?> adapter, View view,
 					int position, long id) {
@@ -59,7 +57,6 @@ public class ShelfFragment extends BaseFragment {
 				startActivity(i);
 			}
 		});
-
 		return mRootView;
 	}
 
